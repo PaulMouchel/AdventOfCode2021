@@ -24,7 +24,6 @@ readInterface
     let newUniverses = []
     let playerTurn = 0
     while (universes.length > 0) {
-    // for (let test = 0 ; test <= 18 ; test++ ) {
         console.log(universes.length)
         universes.forEach(universe => {
             // When throw die 3 times the sum could be
